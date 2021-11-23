@@ -4,7 +4,7 @@ import { JogadoresModule } from './jogadores/jogadores.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://admin:admin@cluster0.pf8yv.mongodb.net/smartranking?retryWrites=true&w=majority',
+    MongooseModule.forRoot('mongodb+srv://user:password@cluster0.pf8yv.mongodb.net/smartranking?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useCreateIndex: true,
