@@ -47,19 +47,19 @@ export class JogadoresService {
 
         const {nome, email, telefoneCelular} = criaJogadoDto;
 
-        const jogador: Jogador = {
-            _id: uuidv4(),
-            nome,
-            telefoneCelular,
-            email,
-            ranking: 'A',
-            posicaoRanking: 1,
-            urlFotoJogador: 'www.google.com.br/foto123.jpg'
-        };
+        // const jogador: Jogador = {
+        //     _id: uuidv4(),
+        //     nome,
+        //     telefoneCelular,
+        //     email,
+        //     ranking: 'A',
+        //     posicaoRanking: 1,
+        //     urlFotoJogador: 'www.google.com.br/foto123.jpg'
+        // };
 
-        this.logger.log(`criaJogadorDto: ${JSON.stringify(jogador)}`)
+        // this.logger.log(`criaJogadorDto: ${JSON.stringify(jogador)}`)
 
-        this.jogadores.push(jogador);
+        // this.jogadores.push(jogador);
 
     }
 
