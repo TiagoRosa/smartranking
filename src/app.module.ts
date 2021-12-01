@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import {MongooseModule} from '@nestjs/mongoose'
 import { JogadoresModule } from './jogadores/jogadores.module';
+import { CategoriasModule } from './categorias/categorias.module';
 
 
 @Module({
@@ -14,7 +15,8 @@ import { JogadoresModule } from './jogadores/jogadores.module';
       // useUnifiedTopology: true,
       // useFindAndModify: false
     }),
-    JogadoresModule],
+    JogadoresModule,
+    CategoriasModule],
   controllers: [],
   providers: [],
 })
